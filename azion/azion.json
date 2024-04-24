@@ -1,0 +1,58 @@
+{
+  "name": "project-a-astro-20240424181805",
+  "bucket": "project-a-astro-20240424181805",
+  "preset": "astro",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240424211945",
+  "not-first-run": true,
+  "function": {
+    "id": 20836,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20473,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713999387,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713998166,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 127345,
+      "origin-key": "dc291d0a-a94d-43d1-a4f2-01e18fd0cd53",
+      "name": "project-a-astro-20240424181805_single"
+    },
+    {
+      "origin-id": 127346,
+      "origin-key": "3975845c-207b-457b-a160-cda487d285ca",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 238839,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 238840,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 238841,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
