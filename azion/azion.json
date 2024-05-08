@@ -1,25 +1,25 @@
 {
-  "name": "project-a-astro-20240503185024",
-  "bucket": "project-a-astro-20240503185024",
+  "name": "project-a-astro",
+  "bucket": "project-a-astro",
   "preset": "astro",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240503215228",
+  "prefix": "1715173234",
   "not-first-run": true,
   "function": {
-    "id": 46385,
+    "id": 46489,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 50827,
+    "instance-id": 51021,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1714777459,
+    "id": 1715178456,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1714773615,
+    "id": 1715174266,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
@@ -27,13 +27,13 @@
   },
   "origin": [
     {
-      "origin-id": 356282,
-      "origin-key": "fbf96d9c-d34a-495c-897e-95a4e354ba26",
-      "name": "project-a-astro-20240503185024_single"
+      "origin-id": 357405,
+      "origin-key": "3bb7d1da-38e5-4940-8382-8f2dbadce460",
+      "name": "project-a-astro_single"
     },
     {
-      "origin-id": 356283,
-      "origin-key": "325a3ec4-9dd6-48a8-b2a1-8faa23bd2c8c",
+      "origin-id": 357406,
+      "origin-key": "03ed862b-92fb-42b0-95b1-8944434ddb5a",
       "name": "origin-storage-default"
     }
   ],
@@ -41,15 +41,15 @@
     "created": false,
     "rules": [
       {
-        "id": 411984,
+        "id": 413264,
         "name": "Main_Rule"
       },
       {
-        "id": 411985,
+        "id": 413265,
         "name": "Index_Rewrite_1"
       },
       {
-        "id": 411986,
+        "id": 413266,
         "name": "Index_Rewrite_2"
       }
     ]
